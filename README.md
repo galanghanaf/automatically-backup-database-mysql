@@ -56,21 +56,18 @@ rm $BACKUP_DIR/$DB_NAME-$DATE.sql
 
 ```
 crontab -e
-
 ```
 
 - If you want to backup your database after every “2 AM” copy this and save the file
 
 ```
 0 2 * * * /path/to/autobackup_all_databases.sh
-
 ```
 
 - If you want to backup your database after every 10 Minutes” copy this and save the file
 
 ```
 */10 * * * * /path/to/autobackup_all_databases.sh
-
 ```
 
 - That's it, done.
